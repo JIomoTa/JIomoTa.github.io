@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+.editor-note {
+    color: rgba(32, 2, 2, 0.992);
+    width: 100%; /*Ширина блока*/
+    border: 2px solid black; /*рамка вокруг текста*/
+    text-align: center;
+    height: 100px;
+}
+.editor-note2 {
+    border: 2px solid green;
+    padding: 30px;
+    margin: 0 auto;
+    width: 400px;
+}
+li:hover {
+    color: rgb(242, 27, 27);
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 5px;
+    text-align: center;
+}
+html {
+    font: 10px; /*размер текста в пикселях*/
+    font-family: 'Bebas Neue', cursive;
+    background-color: #B80303 ;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px whitesmoke;
+    font-size: 50px;
+    text-align: center; /*Расположение текста на странице*/
+}
+p {
+    text-align: center;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
