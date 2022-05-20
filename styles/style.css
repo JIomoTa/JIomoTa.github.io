@@ -1,21 +1,21 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;/*Я забыл что это !!!*/
 }
 .editor-note {
     color: rgba(32, 2, 2, 0.992);
     width: 100%; /*Ширина блока*/
     border: 2px solid black; /*рамка вокруг текста*/
     text-align: center;
-    height: 100px;
+    height: 120px;
 }
 .editor-note2 {
     border: 2px solid green;
     padding: 30px;
     margin: 0 auto;
-    width: 400px;
+    width: 300px;
 }
 li:hover {
-    color: rgb(242, 27, 27);
+    color: rgb(2, 0, 0);
     font-size: 16px;
     line-height: 2;
     letter-spacing: 5px;
@@ -24,7 +24,8 @@ li:hover {
 html {
     font: 10px; /*размер текста в пикселях*/
     font-family: 'Bebas Neue', cursive;
-    background-color: #090000 ;
+    background-color: #090000;
+    /*background: url(images/REbg.png) size: 100%;*/
 }
 h1 {
     margin: 0;
@@ -48,3 +49,21 @@ img {
     margin: 0 auto;
     width: 100%;
 }
+h2 {
+    text-align: center;
+}
+button {
+    font-size: 20px;
+    color: aqua;
+    background-color: black;
+}
+ul {/*Все ниже, скопировал, вставил для наглядности*/
+    background: red;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
