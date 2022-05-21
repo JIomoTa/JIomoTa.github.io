@@ -8,18 +8,23 @@
     text-align: center;
     height: 120px;
 }
+.RElogo {
+    width: 75%;
+    margin: 0 auto;
+}
 .editor-note2 {
     border: 2px solid green;
     padding: 30px;
     margin: 0 auto;
-    width: 300px;
+    width: 500px;
 }
+
 li:hover {
     color: rgb(2, 0, 0);
     font-size: 16px;
     line-height: 2;
     letter-spacing: 5px;
-    text-align: center;
+    text-align: left;
 }
 html {
     font: 10px; /*размер текста в пикселях*/
@@ -57,13 +62,18 @@ button {
     color: aqua;
     background-color: black;
 }
+.editor-homelink {
+    text-align: right;
+}
 ul {/*Все ниже, скопировал, вставил для наглядности*/
     background: red;
     padding: 10px;
     border: 1px solid black;
   }
   
-  li {
+li {
     margin-left: 20px;
   }
-  
+.link-one {
+    text-align: right;
+}
