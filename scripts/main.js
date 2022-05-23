@@ -1,7 +1,7 @@
 document.querySelector("h1").onclick = function() {
     alert("О черт! Не тыкай в меня!")
 }
-var myImage = document.querySelector("img");
+var myImage = document.querySelector(".RE-images");
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute("src");

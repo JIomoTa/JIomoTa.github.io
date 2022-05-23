@@ -11,6 +11,8 @@
 .RElogo {
     width: 75%;
     margin: 0 auto;
+    display: block;
+
 }
 .editor-note2 {
     border: 2px solid green;
@@ -19,12 +21,12 @@
     width: 500px;
 }
 
-li:hover {
+.editor-note li:hover {
     color: rgb(2, 0, 0);
     font-size: 16px;
     line-height: 2;
     letter-spacing: 5px;
-    text-align: left;
+    text-align: center;
 }
 html {
     font: 10px; /*размер текста в пикселях*/
@@ -45,11 +47,11 @@ p {
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #FF9500;
+    background-color: #724507;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
 }
-img {
+.RE-images {
     display: block;
     margin: 0 auto;
     width: 100%;
