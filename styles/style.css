@@ -3,10 +3,11 @@
 }
 .editor-note {
     color: rgba(32, 2, 2, 0.992);
-    width: 100%; /*Ширина блока*/
-    border: 2px solid black; /*рамка вокруг текста*/
+    width: auto; /*Ширина блока*/
+    border: 2px solid green; /*рамка вокруг текста*/
     text-align: center;
     height: 120px;
+    padding-top: 10px;
 }
 .RElogo {
     width: 75%;
@@ -23,9 +24,8 @@
 
 .editor-note li:hover {
     color: rgb(2, 0, 0);
-    font-size: 16px;
     line-height: 2;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     text-align: center;
 }
 html {
@@ -47,7 +47,7 @@ p {
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #724507;
+    background-color: #e7a549;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
 }
@@ -67,15 +67,29 @@ button {
 .editor-homelink {
     text-align: right;
 }
-ul {/*Все ниже, скопировал, вставил для наглядности*/
-    background: red;
-    padding: 10px;
-    border: 1px solid black;
-  }
-  
-li {
-    margin-left: 20px;
-  }
-.link-one {
-    text-align: right;
+.ul-one {
+    border: 2px solid green;
+    width: auto;
+    margin: 0 auto;
+    background-color: chocolate;
+}
+.ol-one {
+    border: 2px solid green;
+    background-color: chocolate;
+}
+ul li:hover {
+    color: rgb(2, 0, 0);
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.ol-one li:hover {
+    color: rgb(2, 0, 0);
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.navigation {
+    border: 2px solid green;
+    width: auto;
+    margin: 0 auto;
+    background-color: chocolate;
 }

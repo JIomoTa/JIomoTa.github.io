@@ -21,13 +21,13 @@ function setUserName() {
         myName = "";
     }
     localStorage.setItem("name",myName);
-    myHeading.textContent = "ПОМОГИ МНЕ " + myName;
+    myHeading.textContent = "Добро Пожаловать " + myName;
 }
 if(!localStorage.getItem("name")){
     setUserName();
 } else {
     var storedName = localStorage.getItem("name");
-    myHeading.textContent = "ПОМОГИ МНЕ " + storedName;
+    myHeading.textContent = "Добро Пожаловать " + storedName;
 }
 myButton.onclick = function() {
     setUserName();
