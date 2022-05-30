@@ -33,7 +33,7 @@ myButton.onclick = function() {
     setUserName();
 }
 
-const list = document.createElement('ul');
+/*const list = document.createElement('ul');
 const info = document.createElement('p');
 const html = document.querySelector('html');
 
@@ -53,4 +53,4 @@ list.onclick = function() {
     const listContent = prompt('Введите содержимое списка.');
     this.textContent = listContent;
   }//На потом!!!
-}
+}*/

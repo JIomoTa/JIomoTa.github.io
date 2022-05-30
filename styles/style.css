@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;/*Я забыл что это !!!*/
+  box-sizing: border-box;/*Я забыл что это !!!*/ 
 }
 .editor-note {
     color: rgba(32, 2, 2, 0.992);
@@ -8,20 +8,25 @@
     text-align: center;
     height: 120px;
     padding-top: 10px;
+    background-color: chocolate;
+    border-radius: 20px;
 }
 .RElogo {
     width: 75%;
     margin: 0 auto;
     display: block;
-
 }
 .editor-note2 {
     border: 2px solid green;
     padding: 30px;
     margin: 0 auto;
     width: 500px;
+    background-color: chocolate;
+    border-radius: 20px;
 }
-
+.Video1 {
+    border-radius: 25px;
+}
 .editor-note li:hover {
     color: rgb(2, 0, 0);
     line-height: 2;
@@ -32,7 +37,7 @@ html {
     font: 10px; /*размер текста в пикселях*/
     font-family: 'Bebas Neue', cursive;
     background-color: #090000;
-    /*background: url(images/REbg.png) size: 100%;*/
+    background-image: url("images/REbg.png") size 100%;
 }
 h1 {
     margin: 0;
@@ -49,12 +54,12 @@ body {
     margin: 0 auto;
     background-color: #e7a549;
     padding: 0 20px 20px 20px;
-    border: 5px solid black;
 }
 .RE-images {
     display: block;
     margin: 0 auto;
     width: 100%;
+    border-radius: 24px;
 }
 h2 {
     text-align: center;
@@ -63,6 +68,7 @@ button {
     font-size: 20px;
     color: aqua;
     background-color: black;
+    border-radius: 20px;
 }
 .editor-homelink {
     text-align: right;
@@ -72,10 +78,12 @@ button {
     width: auto;
     margin: 0 auto;
     background-color: chocolate;
+    border-radius: 20px;
 }
 .ol-one {
     border: 2px solid green;
     background-color: chocolate;
+    border-radius: 20px;
 }
 ul li:hover {
     color: rgb(2, 0, 0);
@@ -92,4 +100,11 @@ ul li:hover {
     width: auto;
     margin: 0 auto;
     background-color: chocolate;
+    display: flex;
+    border-radius: 20px;
+}
+.navigation li {
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 5px;
 }
