@@ -1,15 +1,17 @@
 * {
-  box-sizing: border-box;/*Я забыл что это !!!*/ 
-}
+  box-sizing: border-box; 
+} 
 .editor-note {
     color: rgba(32, 2, 2, 0.992);
     width: auto; /*Ширина блока*/
-    border: 2px solid green; /*рамка вокруг текста*/
+    /* border: 2px solid green; рамка вокруг текста */
     text-align: center;
     height: 120px;
     padding-top: 10px;
-    background-color: chocolate;
+    background-color: #EE0729;
     border-radius: 20px;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4)
 }
 .RElogo {
     width: 75%;
@@ -17,12 +19,36 @@
     display: block;
 }
 .editor-note2 {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding: 30px;
     margin: 0 auto;
     width: 500px;
-    background-color: chocolate;
+    background-color: #EE0729;
     border-radius: 20px;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4)
+}
+.navigation {
+    /* border: 2px solid green; */
+    width: auto;
+    margin: 0 auto;
+    background-color: #EE0729;
+    display: flex;
+    border-radius: 20px;
+    padding-left: 0;
+    justify-content: center;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4)
+}
+.navigation li,a {
+    list-style-type:none;
+    margin-right: 10px;
+    padding: 5px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: black;
 }
 .Video1 {
     border-radius: 25px;
@@ -37,7 +63,11 @@ html {
     font: 10px; /*размер текста в пикселях*/
     font-family: 'Bebas Neue', cursive;
     background-color: #090000;
-    background-image: url("images/REbg.png") size 100%;
+    background-image: url(../images/rebg.png);
+    background-size:contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 h1 {
     margin: 0;
@@ -52,8 +82,11 @@ p {
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #e7a549;
+    background-color: #2E415B;
     padding: 0 20px 20px 20px;
+    border: 2px solid black;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4)
 }
 .RE-images {
     display: block;
@@ -74,16 +107,20 @@ button {
     text-align: right;
 }
 .ul-one {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: auto;
     margin: 0 auto;
-    background-color: chocolate;
+    background-color: #EE0729;
     border-radius: 20px;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4)
 }
 .ol-one {
-    border: 2px solid green;
-    background-color: chocolate;
+    /* border: 2px solid green; */
+    background-color: #EE0729;
     border-radius: 20px;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4)
 }
 ul li:hover {
     color: rgb(2, 0, 0);
@@ -95,16 +132,10 @@ ul li:hover {
     line-height: 2;
     letter-spacing: 2px;
 }
-.navigation {
-    border: 2px solid green;
-    width: auto;
-    margin: 0 auto;
-    background-color: chocolate;
-    display: flex;
-    border-radius: 20px;
-}
-.navigation li {
-    list-style-type: none;
-    margin-right: 10px;
-    padding: 5px;
-}
+/* .testlink p,a{
+    text-decoration:underline;
+} */
+/* .testlink a:hover{
+    letter-spacing: 1px;
+    color: #090000;
+} */
