@@ -63,7 +63,7 @@ html {
     font: 10px; /*размер текста в пикселях*/
     font-family: 'Bebas Neue', cursive;
     background-color: #090000;
-    background-image: url("images/rebg.png");
+    background-image: url(images/rebg.png);
     background-size:contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
