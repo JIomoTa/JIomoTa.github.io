@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+} 
+
+.editor-note {
+    color: rgba(32, 2, 2, 0.992);
+    width: auto; /*Ширина блока*/
+    /* border: 2px solid green; рамка вокруг текста */
+    text-align: center;
+    height: 120px;
+    padding-top: 10px;
+    background-color: #EE0729;
+    border-radius: 20px;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4);
+}
+
+.RElogo {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    position: sticky;
+    top: 5px;
+}
+
+.editor-note2 {
+    /* border: 2px solid green; */
+    padding: 30px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #EE0729;
+    border-radius: 20px;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4);
+}
+
+.navigation {
+    /* border: 2px solid green; */
+    /* width: auto; */
+    background-color: #2E415B;
+    /* display: flex; */
+    border-radius: 20px;
+    padding-left: 0;
+    /* justify-content: center; */
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 5px;
+    left: 18px;
+    width: 20%;
+    height: 30%;
+}
+
+.navigation li,a {
+    display: flex;
+    list-style-type:none;
+    /* padding: auto; */
+    color: aliceblue;
+    text-decoration: none;
+    /* margin: 20% 5% 20% 5%; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-shadow: black 2px 2px 1px;
+    height: 33%;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px wheat solid; */
+}
+
+.Video1 {
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.testsite {
+    width: 200px;
+}
+
+.editor-note li:hover {
+    color: rgb(2, 0, 0);
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+html {
+    font: 10px; /*размер текста в пикселях*/
+    font-family: 'Bebas Neue', cursive;
+    background-color: #090000;
+    background-image: url(../images/rebg.png);
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px whitesmoke;
+    font-size: 50px;
+    text-align: center; /*Расположение текста на странице*/
+}
+
+p {
+    text-align: center;
+}
+
+.floatimg {
+    float: left;
+    width: 40%;
+    height: 60%;
+    margin-right: 10px;
+    border-radius: 15px;
+    /* border: 1px black solid; */
+    box-shadow:  -4px -4px 3px rgba(0, 0, 0, 0.4),
+                 4px 4px 3px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper {
+    overflow: auto;
+}
+
+.survivep {
+    text-align: unset;
+}
+
+body {
+    width: 55%;
+    margin: 0 auto;
+    background-color: #2E415B;
+    padding: 0 20px 20px 20px;
+    border: 2px solid black;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4);
+    text-shadow: white 0.1px 0.1px 10px;
+}
+
+.RE-images {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 24px;
+    box-shadow:  -4px -4px 3px rgba(0, 0, 0, 0.4),
+                 4px 4px 3px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    text-align: center;
+}
+
+.userchange {
+    font-size: 20px;
+    color: aqua;
+    background-color: rgb(209, 33, 33);
+    border-radius: 20px;
+    height: 50px;
+    box-shadow:  -4px -4px 3px rgba(0, 0, 0, 0.4),
+                 4px 4px 3px rgba(0, 0, 0, 0.4);
+    text-shadow: black 3px 3px 2px;
+}
+
+.editor-homelink {
+    text-align: right;
+}
+
+.ul-one {
+    /* border: 2px solid green; */
+    width: auto;
+    margin: 0 auto;
+    background-color: #EE0729;
+    border-radius: 20px;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.ol-one {
+    /* border: 2px solid green; */
+    background-color: #EE0729;
+    border-radius: 20px;
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+ul li:hover {
+    color: rgb(2, 0, 0);
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.ol-one li:hover {
+    color: rgb(2, 0, 0);
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.navigation a:hover {
+    color: black;
+    line-height: normal;
+    letter-spacing: normal;
+    text-shadow: white 2px 2px 1px;
+}
+
+.editor-homelink a:hover {
+    color: black;
+    line-height: normal;
+    letter-spacing: normal;
+    text-shadow: white 2px 2px 1px;
+}
+
+.feedback a:hover {
+        color: black;
+        line-height: normal;
+        letter-spacing: normal;
+        text-shadow: white 2px 2px 1px;
+}
+
+.userchange:hover {
+    background-color: #090000;
+    text-shadow: rgb(255, 255, 255) 3px 3px 2px;
+}
+
+.audio {
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 18px;
+}
+
+.map {
+    box-shadow: inset -4px -4px 3px rgba(0, 0, 0, 0.4),
+                inset 4px 4px 3px rgba(0, 0, 0, 0.4);   
+}
+
+/* .testlink p,a{
+    text-decoration:underline;
+} */
+/* .testlink a:hover{
+    letter-spacing: 1px;
+    color: #090000;
+} */
